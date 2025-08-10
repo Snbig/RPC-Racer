@@ -9,6 +9,8 @@ It mimics the RPC interface of the Storage Service (StorSvc.dll) and forces the 
 
 This attack will succeed only if the Storage Service is turned off. To execute the tool before this service is launched, the parameter `/register` should be specified for RPC-Racer. It will make the tool create a scheduled task that will start when the current user logs on. After the machine reboots and the user logs on again, RPC-Racer will be executed automatically with the IP address specified upon registration.
 
+Additional technical information is available on the [SafeBreach blog](https://www.safebreach.com/blog/you-snooze-you-lose-winning-rpc-endpoints/)
+
 Presented at DEF CON 33 - [You snooze you lose: RPC-Racer winning RPC endpoints against services](https://defcon.org/html/defcon-33/dc-33-speakers.html#content_60313)
 
 ## Usage
